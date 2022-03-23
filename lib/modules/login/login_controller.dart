@@ -4,7 +4,7 @@ import 'package:app_filmes/application/ui/loader/loader_mixin.dart';
 import 'package:app_filmes/application/ui/messages/messages_mixin.dart';
 import 'package:get/get.dart';
 
-import '../../services/login_service.dart';
+import '../../services/login/login_service.dart';
 
 class LoginController extends GetxController with LoaderMixin, MessagesMixin {
   final LoginService _loginService;
